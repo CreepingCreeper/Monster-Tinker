@@ -1,0 +1,49 @@
+{
+  "entity": [
+    "minecraft:zombie",
+    "minecraft:zombie_villager",
+    "minecraft:husk",
+    "minecraft:vex"
+  ],
+  "equip": {
+    "chance": 1,
+    "match": {
+      "type": "mantle:set",
+      "items": [
+        "minecraft:iron_sword"
+      ]
+    },
+    "materials": [
+      {
+        "type": "tconstruct:random",
+        "material": {
+          "type": "mantle:inverted",
+          "inverted_type": "mantle:tag",
+          "tag": "tconstruct:exclude_from_loot"
+        },
+        "tier": 2
+      },
+      {
+        "type": "tconstruct:random",
+        "material": {
+          "type": "mantle:inverted",
+          "inverted_type": "mantle:tag",
+          "tag": "tconstruct:exclude_from_loot"
+        },
+        "tier": 2
+      },
+      {
+        "type": "tconstruct:random",
+        "material": {
+          "type": "mantle:inverted",
+          "inverted_type": "mantle:tag",
+          "tag": "tconstruct:exclude_from_loot"
+        },
+        "tier": 2
+      }
+    ],
+    "priority": 80,
+    "slot": "mainhand",
+    "tool": "tconstruct:sword"
+  }
+}

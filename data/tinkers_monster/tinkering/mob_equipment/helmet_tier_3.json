@@ -1,0 +1,35 @@
+{
+  "entity": "#tinkers_monster:random_armor",
+  "equip": {
+    "chance": 1,
+    "match": {
+      "type": "mantle:set",
+      "items": [
+        "minecraft:diamond_helmet"
+      ]
+    },
+    "materials": [
+      {
+        "type": "tconstruct:random",
+        "material": {
+          "type": "mantle:inverted",
+          "inverted_type": "mantle:tag",
+          "tag": "tconstruct:exclude_from_loot"
+        },
+        "tier": 3
+      },
+      {
+        "type": "tconstruct:random",
+        "material": {
+          "type": "mantle:inverted",
+          "inverted_type": "mantle:tag",
+          "tag": "tconstruct:exclude_from_loot"
+        },
+        "tier": 3
+      }
+    ],
+    "priority": 80,
+    "slot": "head",
+    "tool": "tconstruct:plate_helmet"
+  }
+}

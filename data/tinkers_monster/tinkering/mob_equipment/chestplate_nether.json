@@ -1,0 +1,33 @@
+{
+  "entity": "#tinkers_monster:nether_armor",
+  "equip": {
+    "chance": 1,
+    "match": {
+      "type": "mantle:set",
+      "items": [
+        "minecraft:golden_chestplate"
+      ]
+    },
+    "materials": [
+      {
+        "type": "tconstruct:random",
+        "allow_hidden": true,
+        "material": {
+          "type": "mantle:tag",
+          "tag": "tconstruct:nether"
+        }
+      },
+      {
+        "type": "tconstruct:random",
+        "allow_hidden": true,
+        "material": {
+          "type": "mantle:tag",
+          "tag": "tconstruct:nether"
+        }
+      }
+    ],
+    "priority": 80,
+    "slot": "chest",
+    "tool": "tconstruct:plate_chestplate"
+  }
+}

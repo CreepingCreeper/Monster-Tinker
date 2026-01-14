@@ -1,0 +1,37 @@
+{
+  "entity": "#tinkers_monster:random_armor",
+  "equip": {
+    "chance": 1,
+    "match": {
+      "type": "mantle:set",
+      "items": [
+        "minecraft:chainmail_leggings",
+        "minecraft:iron_leggings",
+        "minecraft:golden_leggings"
+      ]
+    },
+    "materials": [
+      {
+        "type": "tconstruct:random",
+        "material": {
+          "type": "mantle:inverted",
+          "inverted_type": "mantle:tag",
+          "tag": "tconstruct:exclude_from_loot"
+        },
+        "tier": 2
+      },
+      {
+        "type": "tconstruct:random",
+        "material": {
+          "type": "mantle:inverted",
+          "inverted_type": "mantle:tag",
+          "tag": "tconstruct:exclude_from_loot"
+        },
+        "tier": 2
+      }
+    ],
+    "priority": 80,
+    "slot": "legs",
+    "tool": "tconstruct:plate_leggings"
+  }
+}
